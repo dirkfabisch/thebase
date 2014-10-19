@@ -52,6 +52,22 @@ social:
 #    share_title:
 #    share_link:
 
+picture:
+  source: assets/images/_fullsize
+  output: generated
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      ppi: [1, 1.5]
+      source_lrg:
+        media: "(min-width: 50em)"
+        width: 1000
+      source_med:
+        media: "(min-width: 30em)"
+        width: 700
+      source_default:
+        width: 600
 
 # Glynn settings
 ftp_host: 'base68.com'
