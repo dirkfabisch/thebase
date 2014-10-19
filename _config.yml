@@ -3,15 +3,15 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mediator"
+title: "The Base"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+  Things that came in my mind...
 
-email: a-mail@mail.mail
+email: dirk@base68.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/background_image.jpg"
 
 name: 'Dirk Fabisch'
 author: 'Dirk Fabisch'
@@ -19,7 +19,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://blog.base68.com" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
@@ -51,3 +51,13 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+
+# Glynn settings
+ftp_host: 'base68.com'
+ftp_dir: '/'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'f009917a'     # default read from stdin
