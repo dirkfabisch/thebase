@@ -1,6 +1,6 @@
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+#markdown: redcarpet
+#highlighter: pygments
 
 # Site settings
 title: "The Base"
@@ -77,3 +77,8 @@ ftp_passive: false
 # optional
 ftp_port: 21                  # default 21
 ftp_username: 'f009917a'     # default read from stdin
+
+#gems
+gems: [jekyll-paginate]
+
+
