@@ -1,7 +1,9 @@
 # Build settings
 #markdown: redcarpet
 #highlighter: pygments
-
+gems:
+  - jemoji
+  
 # Site settings
 title: "The Base"
 description: > # this means to ignore newlines until "email:"
@@ -21,6 +23,11 @@ paginate:	5
 
 url: "http://blog.base68.com" # the base hostname & protocol for your site
 baseurl: ""
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
 
 # social icons and sharing options
 social:
@@ -34,7 +41,7 @@ social:
 #  - icon:	facebook
 #    url:	https://facebook.com/???
 #    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
+#    share_url: https://www.facebook.com/sharer.php
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
